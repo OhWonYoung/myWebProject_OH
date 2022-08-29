@@ -1,0 +1,17 @@
+/* footer */
+.footer{
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+}
+.footer .inner-footer{
+	flex: 0 1 1200px;
+	background: #184d47de;
+	box-shadow: 10px 10px 10px #222222;
+	border-radius: 20px;
+}
+.footer .inner-footer .fcon{
+	text-align: center;
+	padding: 50px;
+	color: #FAD586;
+}

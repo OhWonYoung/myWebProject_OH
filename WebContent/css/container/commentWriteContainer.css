@@ -1,0 +1,55 @@
+/* boardView container */
+
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con {
+	flex:0 1 580px; 
+	/*
+	background: #ffffffb8;
+	text-align: center;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px #222222;*/
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-write{
+	width:100%;
+	background: #ffffffb8;
+	text-align: center;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px #222222;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-write h1.title{
+	padding: 10px 0;
+	background:  #184d47de;
+	color: #FAD586;
+	border-radius: 25px 25px 0 0;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-write .write-con{
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-write .write-con ul{
+	display: flex;
+	justify-content: space-around;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-write .write-con ul>li{
+	width:100%;
+	height: 50px;
+	border-radius: 25px;
+}
+#commentContent{
+	width: 100%;
+	border: 0;
+	outline: 0;
+	height: 50px;
+	border-radius: 0 0 0 25px;
+	padding: 0 10px;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-write .write-con ul>li:last-child{
+	width: 10%;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-write .write-con ul>li .com1{
+	border: 0;
+	outline: 0;
+	width: 100%;
+	background: #F55353;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	border-radius: 0 0 25px 0;
+}

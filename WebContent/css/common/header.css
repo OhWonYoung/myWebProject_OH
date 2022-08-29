@@ -1,0 +1,55 @@
+/* header */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.header{
+	width: 100%;
+	height: auto;
+}
+.header .inner-header{
+}
+.header .inner-header .nav{
+	display: flex;
+	justify-content: center;
+}
+.header .inner-header .nav .inner-nav{ 
+	flex: 0 1 1200px;
+	display:  flex;
+	justify-content: space-between;
+	padding: 15px;
+	background: #184d47de;
+	box-shadow: 10px 10px 10px #222222;
+	border-radius: 20px;
+}
+.header .inner-header .nav .inner-nav h1.logo{ 
+	width : 200px;
+	text-align: center;
+	line-height: 40px;
+	padding: 10px 0;
+	border-radius: 25px;
+}
+.header .inner-header .nav .inner-nav h1.logo>a{ 
+	font-family: 'Dancing Script', cursive;
+	color: #FAD586;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.header .inner-header .nav .inner-nav h1.logo>a:hover{
+	color: #FEB139;
+}
+.header .inner-header .nav .inner-nav .gnb{ 
+}	
+.header .inner-header .nav .inner-nav .gnb ul{ 
+	display: flex;
+	justify-content: space-between;	
+	flex: 0 1 800px;
+}
+.header .inner-header .nav .inner-nav .gnb ul>li{ 
+	padding: 10px 0;
+	margin: 0 20px;
+	line-height: 40px;
+}
+.header .inner-header .nav .inner-nav .gnb ul>li>a{ 
+	color: #FAD586;
+}
+.header .inner-header .nav .inner-nav .gnb ul>li>a:hover {
+	color: #F55353;
+}

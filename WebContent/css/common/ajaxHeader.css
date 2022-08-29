@@ -1,0 +1,55 @@
+/* ajaxHeader */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.ajaxHeader{
+	width: 100%;
+	height: auto;
+}
+.ajaxHeader .inner-ajaxHeader{
+}
+.ajaxHeader .inner-ajaxHeader .nav{
+	display: flex;
+	justify-content: center;
+}
+.ajaxHeader .inner-ajaxHeader .nav .inner-nav{ 
+	flex: 0 1 1200px;
+	display:  flex;
+	justify-content: space-between;
+	padding: 15px;
+	background: #184d47de;
+	box-shadow: 10px 10px 10px #222222;
+	border-radius: 20px;
+}
+.ajaxHeader .inner-ajaxHeader .nav .inner-nav h1.logo{ 
+	width : 200px;
+	text-align: center;
+	line-height: 40px;
+	padding: 10px 0;
+	border-radius: 25px;
+}
+.ajaxHeader .inner-ajaxHeader .nav .inner-nav h1.logo>a{ 
+	font-family: 'Dancing Script', cursive;
+	color: #FAD586;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.ajaxHeader .inner-ajaxHeader .nav .inner-nav h1.logo>a:hover{
+	color: #FEB139;
+}
+.ajaxHeader .inner-ajaxHeader .nav .inner-nav .gnb{ 
+}	
+.ajaxHeader .inner-ajaxHeader .nav .inner-nav .gnb ul{ 
+	display: flex;
+	justify-content: space-between;	
+	flex: 0 1 800px;
+}
+.ajaxHeader .inner-ajaxHeader .nav .inner-nav .gnb ul>li{ 
+	padding: 10px 0;
+	margin: 0 20px;
+	line-height: 40px;
+}
+.ajaxHeader .inner-ajaxHeader .nav .inner-nav .gnb ul>li>a{ 
+	color: #FAD586;
+}
+.ajaxHeader .inner-ajaxHeader .nav .inner-nav .gnb ul>li>a:hover {
+	color: #F55353;
+}

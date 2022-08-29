@@ -1,0 +1,82 @@
+/* boardReply container */
+
+
+.container .inner-container .boardReply .sections .section.sec1 .sec-con{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con{
+	flex:0 1 590px;
+	text-align: center;
+	background: #ffffffb8;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px #222222;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con h1.title{
+	padding: 10px 0;
+	background:  #184d47de;
+	color: #FAD586;
+	border-radius: 25px 25px 0 0;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul{}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	margin: 10px 0;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li>label{
+	width: 20%;
+	line-height: 40px;
+	background: #184d47de;
+	color: #FAD586;
+	border-radius: 25px;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li>input{
+	border: 1px solid;
+	width: 65%;
+	line-height: 40px;
+	outline: 0;
+	text-align: center;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li>span{
+	line-height: 40px;
+	width: 20%;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li:last-child{
+	display: flex;
+	justify-content: space-around;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li:last-child .b1{
+	border: 0;
+	outline: 0;
+	width: 30%;
+	background: #F55353;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li:last-child .b1:hover {
+	background: #FEB139;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li>span.boardName{
+	width: 10%;
+	background: #184d47de;
+	color: #FAD586;
+	border-radius: 25px;
+	margin-left: 5px;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li>span.boardTitle{
+	background: #ffffff;
+	width: 60%;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li>span.boardType{
+	background: #ffffff;
+	width: 10%;
+}
+.container .inner-container .boardReply .sections .section.sec1 .sec-con .boardReply-con ul>li>span.boardLevel{
+	background: #ffffff;
+	width: 15%;
+}

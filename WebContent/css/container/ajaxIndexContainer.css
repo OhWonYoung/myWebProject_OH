@@ -1,0 +1,38 @@
+/* ajaxIndex container */
+
+#wrap{
+	width:100%;
+	height:auto;
+}
+#wrap #inner-wrap{
+	width:100%;
+	height:auto;
+	background: url("../../img/ajaxBg1.jpg")no-repeat 50%/ cover;
+}
+.container{
+	width: 100%;
+	height: auto;
+
+}
+.container .inner-container{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .ajaxIndex{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .ajaxIndex .sections{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .inner-container .ajaxIndex .sections .section.sec1{
+	flex: 0 1 1200px;
+	height: calc(100vh - 213px);
+}
+.container .inner-container .ajaxIndex .sections .section.sec1 .sec-con{
+}
+.container .inner-container .ajaxIndex .sections .section.sec1 .sec-con .ajaxIndex-con{
+	text-align: center;
+}

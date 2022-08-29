@@ -1,0 +1,96 @@
+/* memberView container */
+
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con{
+	flex: 0 1 700px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con .boardView-con{
+	background: #ffffffb8;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px #222222;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con .boardView-con h1.title{
+	padding: 10px 0;
+	background:  #184d47de;
+	color: #FAD586;
+	border-radius: 25px 25px 0 0;
+}
+table, td, th{
+	border-bottom: 1px solid;
+	border-collapse: collapse;
+	padding: 10px 0;
+	text-align: center;
+}
+table{
+	width: 100%;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr:first-child{
+text-align: left;
+	}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr th a.bt{
+	background: #184d47de;
+	padding: 5px;
+	margin: 0 10px;
+	color: #FAD586;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr th a.bt:first-child{
+	margin-left: 30px;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr:first-child th{
+	padding: 0;
+	height:35px;
+	padding: 5px 0;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr:first-child .bs1{
+	height: 35px;
+	text-align: center;
+	margin: 0;
+	width: 25%;
+	outline: 0;
+	border: 0;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr:first-child .bs2{
+	outline: 0;
+	border: 0;
+	margin: 0;
+	padding:10px;
+	margin: 0;
+	width: 55%;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr:first-child .bs3{
+	width: 15%;
+	margin: 0;
+	outline: 0;
+	border: 0;
+	line-height: 35px;
+	cursor: pointer;
+	color: #FAD586;
+	background: #184d47de;
+	font-weight: bold;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr th.h1{
+	width: 10%;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr th.h2{
+	width: 15%;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table thead tr th.h3{
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table tbody tr.c1 th{
+	background: #adade9c9;
+	font-size: 0.7em;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table tbody tr.c2 th{
+	font-size: 0.7em;
+	background: #e9adadc9;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table tbody tr.c3 td{
+	font-size: 0.7em;
+}
+.container .inner-container .memberView .sections .section.sec1 .sec-con .contentView-con table tfoot tr td{
+	border-radius: 0 0 25px 25px;
+	border: 0 !importent;
+}

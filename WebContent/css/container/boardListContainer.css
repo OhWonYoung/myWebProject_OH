@@ -1,0 +1,120 @@
+#wrap{
+	width:100%;
+	min-height:100vh;
+	background: url("../../img/bg2.jpg") no-repeat 50%/ cover;
+}
+.container{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .boardList{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .boardList .sections{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 213px);
+}
+.container .inner-container .boardList .sections .section.sec1{
+	flex: 0 1 1200px;
+	background: #ffffffb8;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px #222222;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con{
+	width: 100%;
+	height: auto;
+	
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con{
+	text-align: center;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con h1.title{
+	padding: 10px 0;
+	background:  #184d47de;
+	color: #FAD586;
+	border-radius: 25px 25px 0 0;
+}
+table, td, th{
+	border-bottom: 1px solid;
+	border-collapse: collapse;
+	padding: 10px 0;
+}
+table{
+	width: 100%;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr:first-child{
+text-align: left;
+	}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr th .bt{
+	background: #184d47de;
+	padding: 5px;
+	margin: 0 10px;
+	color: #FAD586;
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr th a.bt:first-child{
+	margin-left: 30px;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr:first-child th{
+	padding: 0;
+	height:35px;
+	padding: 5px 0;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr:first-child .bs1{
+	height: 35px;
+	text-align: center;
+	margin: 0;
+	width: 25%;
+	outline: 0;
+	border: 0;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr:first-child .bs2{
+	outline: 0;
+	border: 0;
+	margin: 0;
+	padding:10px;
+	margin: 0;
+	width: 55%;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr:first-child .bs3{
+	width: 15%;
+	margin: 0;
+	outline: 0;
+	border: 0;
+	line-height: 35px;
+	cursor: pointer;
+	color: #FAD586;
+	background: #184d47de;
+	font-weight: bold;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr th.h1{
+	width: 10%;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr th.h2{
+	width: 15%;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table thead tr th.h3{
+	}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table tbody tr.c1 td{
+	background: #adade9c9;
+	font-weight: bold;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table tbody tr.c2 td{
+	background: #e9adadc9;
+	font-weight: bold;
+}
+.container .inner-container .boardList .sections .section.sec1 .sec-con .boardList-con table tbody tr .a1{
+	
+	text-align: left;
+}

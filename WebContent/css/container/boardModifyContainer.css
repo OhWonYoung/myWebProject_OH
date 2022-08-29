@@ -1,0 +1,104 @@
+/* boardModify container */
+#wrap{
+	width:100%;
+	min-height:100vh; 
+	background: url("../../img/bg2.jpg") no-repeat 50%/ cover;
+}
+.container{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .boardModify{
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .boardModify .sections{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 213px);
+}
+.container .inner-container .boardModify .sections .section.sec1{
+	flex: 0 1 600px;
+	background: #ffffffb8;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px #222222;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con{
+	width: 100%;
+	height: auto;
+	
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con{
+	text-align: center;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con h1.title{
+	padding: 10px 0;
+	background:  #184d47de;
+	color: #FAD586;
+	border-radius: 25px 25px 0 0;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul{}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	margin: 10px 0;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li>label{
+	width: 25%;
+	line-height: 40px;
+	background: #184d47de;
+	color: #FAD586;
+	border-radius: 25px;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li>input{
+	border: 1px solid;
+	width: 70%;
+	line-height: 40px;
+	outline: 0;
+	text-align: center;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li>span{
+	line-height: 40px;
+	width: 25%;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li:last-child{
+	display: flex;
+	justify-content: space-around;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li:last-child .b1{
+	border: 0;
+	outline: 0;
+	width: 30%;
+	background: #F55353;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li:last-child .b1:hover {
+	background: #FEB139;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li>span.boardName{
+	width: 10%;
+	background: #184d47de;
+	color: #FAD586;
+	border-radius: 25px;
+	margin-left: 5px;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li>span.boardTitle{
+	background: #ffffff;
+	width: 60%;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li>span.boardType{
+	background: #ffffff;
+	width: 10%;
+}
+.container .inner-container .boardModify .sections .section.sec1 .sec-con .boardModify-con ul>li>span.boardLevel{
+	background: #ffffff;
+	width: 15%;
+}

@@ -1,0 +1,60 @@
+/* boardView container */
+
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con {
+	flex:0 1 580px; 
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view{
+	width:100%;
+	background: #ffffffb8;
+	text-align: center;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px #222222;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view h1.title{
+	padding: 10px 0;
+	background:  #184d47de;
+	color: #FAD586;
+	border-radius: 25px 25px 0 0;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con{
+	padding: 10px;
+}
+ table, tr{
+	border-bottom: 1px solid;
+	border-collapse: collapse;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table{
+	width: 100%;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table thead{
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table thead tr{
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table thead tr th{
+	padding: 5px 0;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table thead tr th.t1{
+	width: 15%;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table thead tr th.t2{}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table thead tr th.t3{
+	width: 15%;
+}
+
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table tbody tr td{
+	padding: 3px 0;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table tbody tr td a{
+	background: #ffffff;
+	color: red;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table tbody tr:last-child td{
+	border: 0 !important;
+}
+.container .inner-container .boardView .sections .section.sec1 .sec-con .comment-con .comment-view .view-con table tbody tr td.t4{
+	font-size: 0.7em
+}
